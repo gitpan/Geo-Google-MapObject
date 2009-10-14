@@ -10,11 +10,11 @@ Geo::Google::MapObject - Code to help with managing the server side of the Googl
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -826,6 +826,10 @@ Please report any bugs or feature requests to
 C<bug-geo-google-mapobject@rt.cpan.org>, or through the web interface at
 L<http://rt.cpan.org>.
 
+
+=head1 ACKNOWLEDGEMENTS
+
+Thanks to Andreas Koenig for pointing out that this module had an issue with C<< Build.PL >>. 
 
 =head1 AUTHOR
 
