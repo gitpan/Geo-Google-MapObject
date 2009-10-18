@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Geo-Google-MapObject
-version:            0.03
+version:            0.04
 abstract:           Code to help with managing the server side of the Google Maps API
 author:
     - Nicholas Bamber <nicholas@periapt.co.uk>
@@ -11,10 +11,12 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
+    HTML::Entities:       0
     HTML::Template::Pluggable:  0
     JSON:                 0
     Math::Trig:           1.2
     Scalar::Util:         0
+    Test::Deep:           0
     Test::JSON:           0
     Test::More:           0
 resources:
